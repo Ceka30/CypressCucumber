@@ -17,5 +17,6 @@ module.exports = defineConfig({
     },
     specPattern: "cypress/e2e/features/*feature",
     chromeWebSecurity: false,
+    projectId: "5imrki"
   },
 });

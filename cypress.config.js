@@ -17,6 +17,10 @@ module.exports = defineConfig({
     },
     specPattern: "cypress/e2e/features/*feature",
     chromeWebSecurity: false,
-    projectId: "5imrki"
+    projectId: "5imrki",
+    defaultCommandTimeout: 20000,
+    pageLoadTimeout: 20000,
+    video: true,
+    videoCompression: false,
   },
 });

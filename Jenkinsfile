@@ -27,7 +27,7 @@ pipeline {
                         git url: 'https://github.com/Ceka30/CypressCucumber.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npx cypress run --record --key 9cabc50c-154f-4707-b2d9-8950dea0887b --parallel'
+                        bat 'npx cypress run cypress run --record --key 9cabc50c-154f-4707-b2d9-8950dea0887b --parallel'
                     }
                 }
 
@@ -39,7 +39,7 @@ pipeline {
                         git url: 'https://github.com/Ceka30/CypressCucumber.git'
                         bat 'npm install'
                         bat 'npm update'
-                        bat 'npx cypress run --record --key 9cabc50c-154f-4707-b2d9-8950dea0887b --parallel'
+                        bat 'npx cypress run cypress run --record --key 9cabc50c-154f-4707-b2d9-8950dea0887b --parallel'
                     }
                 }
             }
